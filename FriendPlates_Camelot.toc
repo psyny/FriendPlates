@@ -1,0 +1,36 @@
+## Interface: 16000, 16001
+## Title: FriendPlates
+## Notes: Clean nameplates for your party, raid, friends and guild: a marker icon, an optional health bar, and no name clutter.
+## Author: Psyny
+## Version: 0.1.0
+## DefaultState: enabled
+## OptionalDeps: LibSharedMedia-3.0, SharedMedia
+## IconTexture: Interface\AddOns\FriendPlates\Icons\chevron
+
+## SavedVariables: FriendPlatesDB
+
+# Library files
+#@no-lib-strip@
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConsole-3.0\AceConsole-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+#@end-no-lib-strip@
+
+# Locale files
+Locales\Locale-enUS.lua
+
+# Main Files
+FP_Utils.lua
+FP_Icons.lua
+FP_BarTextures.lua
+FP_Groups.lua
+FP_Display.lua
+FP_Options.lua
+FriendPlates.lua
