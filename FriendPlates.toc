@@ -5,7 +5,7 @@
 ## Version: 0.1.0
 ## DefaultState: enabled
 ## OptionalDeps: LibSharedMedia-3.0, SharedMedia
-## IconTexture: Interface\AddOns\FriendPlates\Icons\chevron
+## IconTexture: Interface\AddOns\FriendPlates\Icons\logo
 
 ## SavedVariables: FriendPlatesDB
 
